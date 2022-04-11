@@ -20,9 +20,17 @@ public class PhillipController : MonoBehaviour
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
     }
 
+    void AttackInput()
+    {
+        if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
+        {
+            print("Phillip's main attack!");
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
-       // 
+        AttackInput();
     }
 }
