@@ -36,7 +36,7 @@ public class PhillipController : MonoBehaviour
     {
         if (target.gameObject.CompareTag("TestDummy"))
         {
-            dummy.count = dummy.count - 10;
+            dummy.count -= 10;
         }
     }
 
