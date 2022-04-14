@@ -7,6 +7,7 @@ public class PhillipController : MonoBehaviour
     public Rigidbody2D rb;
     public Vector2 movement;
     public float moveSpeed = 5f;
+    public PlayerController playercontroller;
 
     // Start is called before the first frame update
     void Start()
@@ -27,6 +28,16 @@ public class PhillipController : MonoBehaviour
             print("Phillip's main attack!");
         }
     }
+
+    void OnTriggerEnter2D(Collider2D target)
+    {
+        if (target.gameObject.CompareTag("TestDummy"))
+        {
+            playercontroller.count = playercontroller.count - 10;
+        }
+    }
+
+
 
     // Update is called once per frame
     void Update()
