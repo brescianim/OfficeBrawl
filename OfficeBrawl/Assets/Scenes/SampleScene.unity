@@ -347,10 +347,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1621764395}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33071619aa6f44f22aedd71adae39b93, type: 3}
+  m_Script: {fileID: 11500000, guid: 13a73f345d09a4f8a8c6699e161e9fe4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuController: {fileID: 2123833740}
   HP: {fileID: 2066035830}
   count: 100
 --- !u!61 &1621764398
@@ -599,9 +598,13 @@ PrefabInstance:
       value: 1.0655785
       objectReference: {fileID: 0}
     - target: {fileID: 806818582363217856, guid: befe5608dd56c474a956f6f745dff4a8, type: 3}
-      propertyPath: playercontroller
+      propertyPath: dummy
       value: 
       objectReference: {fileID: 1621764396}
+    - target: {fileID: 806818582363217856, guid: befe5608dd56c474a956f6f745dff4a8, type: 3}
+      propertyPath: playercontroller
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 806818582363217857, guid: befe5608dd56c474a956f6f745dff4a8, type: 3}
       propertyPath: m_RootOrder
       value: 1

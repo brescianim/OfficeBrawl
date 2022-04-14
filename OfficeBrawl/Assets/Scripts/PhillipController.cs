@@ -7,7 +7,7 @@ public class PhillipController : MonoBehaviour
     public Rigidbody2D rb;
     public Vector2 movement;
     public float moveSpeed = 5f;
-    public PlayerController playercontroller;
+    public DummySettings dummy;
 
     // Start is called before the first frame update
     void Start()
@@ -33,7 +33,7 @@ public class PhillipController : MonoBehaviour
     {
         if (target.gameObject.CompareTag("TestDummy"))
         {
-            playercontroller.count = playercontroller.count - 10;
+            dummy.count = dummy.count - 10;
         }
     }
 
