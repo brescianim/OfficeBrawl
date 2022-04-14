@@ -556,22 +556,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 806818581448022259, guid: befe5608dd56c474a956f6f745dff4a8, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.58
-      objectReference: {fileID: 0}
-    - target: {fileID: 806818581448022259, guid: befe5608dd56c474a956f6f745dff4a8, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.08
-      objectReference: {fileID: 0}
-    - target: {fileID: 806818581448022259, guid: befe5608dd56c474a956f6f745dff4a8, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 806818582363217856, guid: befe5608dd56c474a956f6f745dff4a8, type: 3}
-      propertyPath: rb
-      value: 
-      objectReference: {fileID: 806818582786337780}
     - target: {fileID: 806818582363217856, guid: befe5608dd56c474a956f6f745dff4a8, type: 3}
       propertyPath: playercontroller
       value: 
@@ -624,17 +608,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Phillip
       objectReference: {fileID: 0}
-    - target: {fileID: 806818582363217858, guid: befe5608dd56c474a956f6f745dff4a8, type: 3}
-      propertyPath: m_TagString
-      value: Hero
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: befe5608dd56c474a956f6f745dff4a8, type: 3}
---- !u!50 &806818582786337780 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 5525174506690341759, guid: befe5608dd56c474a956f6f745dff4a8, type: 3}
-  m_PrefabInstance: {fileID: 806818582786337779}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7628009852906013340
 PrefabInstance:
   m_ObjectHideFlags: 0
