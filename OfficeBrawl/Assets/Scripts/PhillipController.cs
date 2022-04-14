@@ -9,6 +9,8 @@ public class PhillipController : MonoBehaviour
     public float moveSpeed = 5f;
     public DummySettings dummy;
 
+    public MenuController menuController;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +21,7 @@ public class PhillipController : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        End();
     }
 
     void AttackInput()
@@ -37,7 +40,13 @@ public class PhillipController : MonoBehaviour
         }
     }
 
-
+    void End()
+    {
+        if (dummy.count == 0)
+        {
+            menuController.WinGame();
+        }
+    }
 
     // Update is called once per frame
     void Update()
