@@ -48,14 +48,6 @@ public class PlayerController : MonoBehaviour
 
     }
 
-    void OnTriggerExit2D(Collider2D target)
-    {
-        if (target.tag == "Hero")
-        {
-            count = count - 10;
-        }
-    }
-
     //private void OnTriggerEnter(Collider other)
     //{
     //    if (other.gameObject.CompareTag("PickUp"))
