@@ -1,49 +1,55 @@
 fileFormatVersion: 2
-guid: aa7a2a2c394861b4dbb3f4089aef81ce
+guid: acb06959419cb2649acc88164eba0092
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2729011831644852564
-    second: wyatt_sprites_0
+      213: -757219494720979861
+    second: IMG_2042_0
   - first:
-      213: -6575794647530419548
-    second: wyatt_sprites_1
+      213: 7074586980634169838
+    second: IMG_2042_1
   - first:
-      213: -7324863381537683299
-    second: wyatt_sprites_2
+      213: -2083964027244095057
+    second: IMG_2042_2
   - first:
-      213: 8046538906458157772
-    second: wyatt_sprites_3
+      213: 8606624589857388857
+    second: IMG_2042_3
   - first:
-      213: -1460529544433788413
-    second: wyatt_sprites_4
+      213: -4654494944842852914
+    second: IMG_2042_4
   - first:
-      213: -3762982716142641829
-    second: wyatt_sprites_5
+      213: 4796638640877851921
+    second: IMG_2042_5
   - first:
-      213: 7605030367960669749
-    second: wyatt_sprites_6
+      213: -7464845367676022929
+    second: IMG_2042_6
   - first:
-      213: -5274374450669797522
-    second: wyatt_sprites_7
+      213: 6775733985853070956
+    second: IMG_2042_7
   - first:
-      213: -8859318674882738447
-    second: wyatt_sprites_8
+      213: 3212654238342502078
+    second: IMG_2042_8
   - first:
-      213: -6581287450872234649
-    second: wyatt_sprites_9
+      213: 4134141763632622034
+    second: IMG_2042_9
   - first:
-      213: -2779269715239672349
-    second: wyatt_sprites_10
+      213: 5317501231491617110
+    second: IMG_2042_10
   - first:
-      213: 1539095939587429116
-    second: wyatt_sprites_11
+      213: 7146208650506925207
+    second: IMG_2042_11
   - first:
-      213: -3987948942347024912
-    second: wyatt_sprites_12
+      213: 5378808125980875186
+    second: IMG_2042_12
   - first:
-      213: 4487828187363151178
-    second: wyatt_sprites_13
+      213: 3411736221519198459
+    second: IMG_2042_13
+  - first:
+      213: -1354976974388383558
+    second: IMG_2042_14
+  - first:
+      213: -8486919398568408985
+    second: IMG_2042_15
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -52,7 +58,7 @@ TextureImporter:
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
-    borderMipMap: 0
+    borderMipMap: 1
     mipMapsPreserveCoverage: 0
     alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
@@ -74,7 +80,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -107,7 +113,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -119,7 +125,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -131,7 +137,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -145,7 +151,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: wyatt_sprites_0
+      name: IMG_2042_0
       rect:
         serializedVersion: 2
         x: 0
@@ -159,14 +165,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cae68f2b23a902ad0800000000000000
-      internalID: -2729011831644852564
+      spriteID: b6cb728a1e0dd75f0800000000000000
+      internalID: -757219494720979861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wyatt_sprites_1
+      name: IMG_2042_1
       rect:
         serializedVersion: 2
         x: 380
@@ -180,14 +186,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4aac80eab951eb4a0800000000000000
-      internalID: -6575794647530419548
+      spriteID: ee19d49406bfd2260800000000000000
+      internalID: 7074586980634169838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wyatt_sprites_2
+      name: IMG_2042_2
       rect:
         serializedVersion: 2
         x: 760
@@ -201,14 +207,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d980e23309bd85a90800000000000000
-      internalID: -7324863381537683299
+      spriteID: fa95c6f22c54413e0800000000000000
+      internalID: -2083964027244095057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wyatt_sprites_3
+      name: IMG_2042_3
       rect:
         serializedVersion: 2
         x: 1140
@@ -222,14 +228,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc27cc6c08c0baf60800000000000000
-      internalID: 8046538906458157772
+      spriteID: 9397791f67fd07770800000000000000
+      internalID: 8606624589857388857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wyatt_sprites_4
+      name: IMG_2042_4
       rect:
         serializedVersion: 2
         x: 1520
@@ -243,14 +249,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30a9f081e182bbbe0800000000000000
-      internalID: -1460529544433788413
+      spriteID: ec55acb1289e76fb0800000000000000
+      internalID: -4654494944842852914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wyatt_sprites_5
+      name: IMG_2042_5
       rect:
         serializedVersion: 2
         x: 1900
@@ -264,14 +270,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5d1264282337cbc0800000000000000
-      internalID: -3762982716142641829
+      spriteID: 115df612e65119240800000000000000
+      internalID: 4796638640877851921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wyatt_sprites_6
+      name: IMG_2042_6
       rect:
         serializedVersion: 2
         x: 2280
@@ -285,14 +291,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53e9a5493de7a8960800000000000000
-      internalID: 7605030367960669749
+      spriteID: f6f437440ba876890800000000000000
+      internalID: -7464845367676022929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wyatt_sprites_7
+      name: IMG_2042_7
       rect:
         serializedVersion: 2
         x: 2660
@@ -306,14 +312,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6f3e67c168adc6b0800000000000000
-      internalID: -5274374450669797522
+      spriteID: c6e5057292e380e50800000000000000
+      internalID: 6775733985853070956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wyatt_sprites_8
+      name: IMG_2042_8
       rect:
         serializedVersion: 2
         x: 3040
@@ -327,14 +333,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f641a79a906d0580800000000000000
-      internalID: -8859318674882738447
+      spriteID: eb6de862204a59c20800000000000000
+      internalID: 3212654238342502078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wyatt_sprites_9
+      name: IMG_2042_9
       rect:
         serializedVersion: 2
         x: 3420
@@ -348,14 +354,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76d360ebee19aa4a0800000000000000
-      internalID: -6581287450872234649
+      spriteID: 2d9ed68c70c6f5930800000000000000
+      internalID: 4134141763632622034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wyatt_sprites_10
+      name: IMG_2042_10
       rect:
         serializedVersion: 2
         x: 3800
@@ -369,14 +375,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e563205bec0e69d0800000000000000
-      internalID: -2779269715239672349
+      spriteID: 65192cb523f8bc940800000000000000
+      internalID: 5317501231491617110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wyatt_sprites_11
+      name: IMG_2042_11
       rect:
         serializedVersion: 2
         x: 4180
@@ -390,14 +396,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf2da524a97fb5510800000000000000
-      internalID: 1539095939587429116
+      spriteID: 794f948c7ee6c2360800000000000000
+      internalID: 7146208650506925207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wyatt_sprites_12
+      name: IMG_2042_12
       rect:
         serializedVersion: 2
         x: 4560
@@ -411,14 +417,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f5c205e095f7a8c0800000000000000
-      internalID: -3987948942347024912
+      spriteID: 2b913101e7d55aa40800000000000000
+      internalID: 5378808125980875186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: wyatt_sprites_13
+      name: IMG_2042_13
       rect:
         serializedVersion: 2
         x: 4940
@@ -432,8 +438,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4d04c875f7f74e30800000000000000
-      internalID: 4487828187363151178
+      spriteID: bf83cfe640ce85f20800000000000000
+      internalID: 3411736221519198459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_2042_14
+      rect:
+        serializedVersion: 2
+        x: 5320
+        y: 0
+        width: 380
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab03fbaee97223de0800000000000000
+      internalID: -1354976974388383558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IMG_2042_15
+      rect:
+        serializedVersion: 2
+        x: 5700
+        y: 0
+        width: 380
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76845fac5c7683a80800000000000000
+      internalID: -8486919398568408985
       vertices: []
       indices: 
       edges: []

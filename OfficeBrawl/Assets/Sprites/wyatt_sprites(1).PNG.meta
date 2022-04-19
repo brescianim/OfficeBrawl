@@ -1,43 +1,49 @@
 fileFormatVersion: 2
-guid: 51c5f1c6fceaf4b748d181d3341df4ed
+guid: e714763303becfa4fa3a41f8563448aa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8844778771686064417
-    second: phillipsprites_0
+      213: -710506677729895281
+    second: wyatt_sprites(1)_0
   - first:
-      213: -3968395859161872459
-    second: phillipsprites_1
+      213: -5362863307305631069
+    second: wyatt_sprites(1)_1
   - first:
-      213: -7163964056563629350
-    second: phillipsprites_2
+      213: 2815579283681979310
+    second: wyatt_sprites(1)_2
   - first:
-      213: 57237734536474971
-    second: phillipsprites_3
+      213: 6363748607724322522
+    second: wyatt_sprites(1)_3
   - first:
-      213: 5846802771821235461
-    second: phillipsprites_4
+      213: -7680480734799370573
+    second: wyatt_sprites(1)_4
   - first:
-      213: 1328840595893347007
-    second: phillipsprites_5
+      213: -1909883429527065352
+    second: wyatt_sprites(1)_5
   - first:
-      213: -1716575245407273402
-    second: phillipsprites_6
+      213: 4304233524279006156
+    second: wyatt_sprites(1)_6
   - first:
-      213: 227924324188429076
-    second: phillipsprites_7
+      213: 3497780044518768766
+    second: wyatt_sprites(1)_7
   - first:
-      213: -440509643665782065
-    second: phillipsprites_8
+      213: -1391841827396119379
+    second: wyatt_sprites(1)_8
   - first:
-      213: -1883679496319697000
-    second: phillipsprites_9
+      213: 2045548306743134668
+    second: wyatt_sprites(1)_9
   - first:
-      213: 5210136293533562956
-    second: phillipsprites_10
+      213: 6599202357200643803
+    second: wyatt_sprites(1)_10
   - first:
-      213: 6124044768576964013
-    second: phillipsprites_11
+      213: 6252220039640354443
+    second: wyatt_sprites(1)_11
+  - first:
+      213: -5978319388615747965
+    second: wyatt_sprites(1)_12
+  - first:
+      213: -6893466953700651922
+    second: wyatt_sprites(1)_13
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -68,7 +74,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -101,10 +107,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,10 +119,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -125,10 +131,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -139,181 +145,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: phillipsprites_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 724
-        width: 362
-        height: 362
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fde7cbc9198014580800000000000000
-      internalID: -8844778771686064417
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: phillipsprites_1
-      rect:
-        serializedVersion: 2
-        x: 362
-        y: 724
-        width: 362
-        height: 362
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b78686ddfc6de8c0800000000000000
-      internalID: -3968395859161872459
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: phillipsprites_2
-      rect:
-        serializedVersion: 2
-        x: 724
-        y: 724
-        width: 362
-        height: 362
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ad2cbd895ac749c90800000000000000
-      internalID: -7163964056563629350
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: phillipsprites_3
-      rect:
-        serializedVersion: 2
-        x: 1086
-        y: 724
-        width: 362
-        height: 362
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b517bc29a695bc000800000000000000
-      internalID: 57237734536474971
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: phillipsprites_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 362
-        width: 362
-        height: 362
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50d8c2ea424042150800000000000000
-      internalID: 5846802771821235461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: phillipsprites_5
-      rect:
-        serializedVersion: 2
-        x: 362
-        y: 362
-        width: 362
-        height: 362
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb267514b7df07210800000000000000
-      internalID: 1328840595893347007
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: phillipsprites_6
-      rect:
-        serializedVersion: 2
-        x: 724
-        y: 362
-        width: 362
-        height: 362
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64e354bb8ef7d28e0800000000000000
-      internalID: -1716575245407273402
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: phillipsprites_7
-      rect:
-        serializedVersion: 2
-        x: 1086
-        y: 362
-        width: 362
-        height: 362
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41b1cea17ffb92300800000000000000
-      internalID: 227924324188429076
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: phillipsprites_8
+      name: wyatt_sprites(1)_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 362
-        height: 362
+        width: 380
+        height: 380
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fcaca2120def2e9f0800000000000000
-      internalID: -440509643665782065
+      spriteID: f8cdd57e0f5c326f0800000000000000
+      internalID: -710506677729895281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: phillipsprites_9
+      name: wyatt_sprites(1)_1
       rect:
         serializedVersion: 2
-        x: 362
+        x: 380
         y: 0
-        width: 362
-        height: 362
+        width: 380
+        height: 380
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89f7d2f6a73dbd5e0800000000000000
-      internalID: -1883679496319697000
+      spriteID: 3a242155c384395b0800000000000000
+      internalID: -5362863307305631069
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: phillipsprites_10
+      name: wyatt_sprites(1)_2
       rect:
         serializedVersion: 2
-        x: 724
+        x: 760
         y: 0
-        width: 362
-        height: 362
+        width: 380
+        height: 380
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,20 +201,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c48307fba5f1e4840800000000000000
-      internalID: 5210136293533562956
+      spriteID: eab20d0e072f21720800000000000000
+      internalID: 2815579283681979310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: phillipsprites_11
+      name: wyatt_sprites(1)_3
       rect:
         serializedVersion: 2
-        x: 1086
+        x: 1140
         y: 0
-        width: 362
-        height: 362
+        width: 380
+        height: 380
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,8 +222,218 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da58e9b354afcf450800000000000000
-      internalID: 6124044768576964013
+      spriteID: ade7b4364a3905850800000000000000
+      internalID: 6363748607724322522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyatt_sprites(1)_4
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 0
+        width: 380
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b66d02f673796590800000000000000
+      internalID: -7680480734799370573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyatt_sprites(1)_5
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 0
+        width: 380
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc62acc32bbe75e0800000000000000
+      internalID: -1909883429527065352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyatt_sprites(1)_6
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 0
+        width: 380
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc35af4e595bbbb30800000000000000
+      internalID: 4304233524279006156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyatt_sprites(1)_7
+      rect:
+        serializedVersion: 2
+        x: 2660
+        y: 0
+        width: 380
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70cdff1b6c9a8030800000000000000
+      internalID: 3497780044518768766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyatt_sprites(1)_8
+      rect:
+        serializedVersion: 2
+        x: 3040
+        y: 0
+        width: 380
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da416867b3f2face0800000000000000
+      internalID: -1391841827396119379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyatt_sprites(1)_9
+      rect:
+        serializedVersion: 2
+        x: 3420
+        y: 0
+        width: 380
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc98352e85f336c10800000000000000
+      internalID: 2045548306743134668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyatt_sprites(1)_10
+      rect:
+        serializedVersion: 2
+        x: 3800
+        y: 0
+        width: 380
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd66ddd6493159b50800000000000000
+      internalID: 6599202357200643803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyatt_sprites(1)_11
+      rect:
+        serializedVersion: 2
+        x: 4180
+        y: 0
+        width: 380
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8e8758100954c650800000000000000
+      internalID: 6252220039640354443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyatt_sprites(1)_12
+      rect:
+        serializedVersion: 2
+        x: 4560
+        y: 0
+        width: 380
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3865ab7c03eb80da0800000000000000
+      internalID: -5978319388615747965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wyatt_sprites(1)_13
+      rect:
+        serializedVersion: 2
+        x: 4940
+        y: 0
+        width: 380
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6c47c9245c7550a0800000000000000
+      internalID: -6893466953700651922
       vertices: []
       indices: 
       edges: []
