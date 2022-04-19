@@ -34,7 +34,7 @@ public class PhillipController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D target)
     {
-        if (target.gameObject.CompareTag("TestDummy"))
+        if (target.gameObject.CompareTag("TestDummy") && dummy.count >0)
         {
             dummy.count -= 10;
         }
