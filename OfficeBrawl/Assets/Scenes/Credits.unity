@@ -701,7 +701,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: "Alex Alsheimer: Production Manager, \nArtist/Character Designer\nMarco
     Brescani: Gameplay Designer, Programmer\nJimmy Cyganek: Game Concept Designer,
-    Programmer\nDeon Goss: Artist, Sound Engineer"
+    Programmer\nDeon Goss: Artist, Music "
 --- !u!222 &1571436730
 CanvasRenderer:
   m_ObjectHideFlags: 0
