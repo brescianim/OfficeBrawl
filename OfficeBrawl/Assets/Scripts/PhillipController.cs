@@ -15,6 +15,9 @@ public class PhillipController : MonoBehaviour
     private bool hasHorizontalInput;
     private bool isWalking;
 
+    private bool hasAttackInput;
+    private bool isAttacking;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +29,7 @@ public class PhillipController : MonoBehaviour
     {
         movement.x = Input.GetAxisRaw("Horizontal");
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+
         hasHorizontalInput = !Mathf.Approximately(movement.x, 0f);
         isWalking = hasHorizontalInput;
         m_animator.SetBool("isWalking", isWalking);
@@ -49,7 +53,14 @@ public class PhillipController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
         {
-            print("Phillip's main attack!");
+            hasAttackInput = true;
+            isAttacking = true;
+            m_animator.SetBool("isAttacking", isAttacking);
+
+            if (isAttacking)
+            {
+                //
+            }
         }
     }
 
