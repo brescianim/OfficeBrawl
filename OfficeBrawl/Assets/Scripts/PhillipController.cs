@@ -46,6 +46,8 @@ public class PhillipController : MonoBehaviour
             }
         }
 
+        AttackInput();
+
         End();
     }
 
@@ -54,13 +56,24 @@ public class PhillipController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
         {
             hasAttackInput = true;
-            isAttacking = true;
+            isAttacking = hasAttackInput;
             m_animator.SetBool("isAttacking", isAttacking);
 
             if (isAttacking)
             {
-                //
+                if (m_animator.GetCurrentAnimatorStateInfo(0).IsName("phillip_idle_left"))
+                {
+                    m_animator.Play("phillip_melee_left");
+                }
+                else if (m_animator.GetCurrentAnimatorStateInfo(0).IsName("phillip_idle_right"))
+                {
+                    m_animator.Play("phillip_melee_right");
+                }
             }
+
+            hasAttackInput = false;
+            isAttacking = hasAttackInput;
+            m_animator.SetBool("isAttacking", isAttacking);
         }
     }
 
@@ -83,6 +96,6 @@ public class PhillipController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        AttackInput();
+        //
     }
 }
