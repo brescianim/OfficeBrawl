@@ -11,6 +11,7 @@ public class PhillipController : MonoBehaviour
     public DummySettings dummy;
     public Animator m_animator;
     public MenuController menuController;
+    public GameObject pencilCollider;
 
     private bool hasHorizontalInput;
     private bool isWalking;
@@ -23,6 +24,7 @@ public class PhillipController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         m_animator = GetComponent<Animator>();
+        pencilCollider.SetActive(false);
     }
 
     void FixedUpdate()
@@ -55,6 +57,8 @@ public class PhillipController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
         {
+            pencilCollider.SetActive(true);
+
             hasAttackInput = true;
             isAttacking = hasAttackInput;
             m_animator.SetBool("isAttacking", isAttacking);
@@ -80,20 +84,14 @@ public class PhillipController : MonoBehaviour
                 if (m_animator.GetCurrentAnimatorStateInfo(0).IsName("phillip_melee_left"))
                 {
                     m_animator.Play("phillip_idle_left");
+                    pencilCollider.SetActive(false);
                 }
                 else if (m_animator.GetCurrentAnimatorStateInfo(0).IsName("phillip_melee_right"))
                 {
                     m_animator.Play("phillip_idle_right");
+                    pencilCollider.SetActive(false);
                 }
             }
-        }
-    }
-
-    void OnTriggerEnter2D(Collider2D target)
-    {
-        if (target.gameObject.CompareTag("TestDummy") && dummy.count >0)
-        {
-            dummy.count -= 10;
         }
     }
 
