@@ -74,6 +74,18 @@ public class PhillipController : MonoBehaviour
             hasAttackInput = false;
             isAttacking = hasAttackInput;
             m_animator.SetBool("isAttacking", isAttacking);
+
+            if (!isAttacking)
+            {
+                if (m_animator.GetCurrentAnimatorStateInfo(0).IsName("phillip_melee_left"))
+                {
+                    m_animator.Play("phillip_idle_left");
+                }
+                else if (m_animator.GetCurrentAnimatorStateInfo(0).IsName("phillip_melee_right"))
+                {
+                    m_animator.Play("phillip_idle_right");
+                }
+            }
         }
     }
 
