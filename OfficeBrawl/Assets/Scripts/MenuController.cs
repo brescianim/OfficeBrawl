@@ -10,6 +10,8 @@ public class MenuController : MonoBehaviour
     public GameObject winPanel;
     public TextMeshProUGUI[] countText;
     public GameObject[] pauseUI; //index 0 button, index 1 panel
+    
+    
 
     public void TransitionScene(int level)
     {
@@ -17,6 +19,8 @@ public class MenuController : MonoBehaviour
         //loosePanel.SetActive(false);
         //winPanel.SetActive(false);
         Time.timeScale = 1;
+       
+
     }
 
     public void Pause()
@@ -52,7 +56,7 @@ public class MenuController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+       
+        
     }
-
 }

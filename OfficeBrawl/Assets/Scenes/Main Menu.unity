@@ -371,6 +371,7 @@ GameObject:
   - component: {fileID: 781737788}
   - component: {fileID: 781737790}
   - component: {fileID: 781737789}
+  - component: {fileID: 781737791}
   m_Layer: 5
   m_Name: phillip
   m_TagString: Untagged
@@ -435,6 +436,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 781737787}
   m_CullTransparentMesh: 1
+--- !u!95 &781737791
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 781737787}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0569f79e44e3a434a9ab35793a61f5cd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &939996330
 GameObject:
   m_ObjectHideFlags: 0
@@ -1414,6 +1434,7 @@ GameObject:
   - component: {fileID: 1831453608}
   - component: {fileID: 1831453610}
   - component: {fileID: 1831453609}
+  - component: {fileID: 1831453611}
   m_Layer: 5
   m_Name: wyatt
   m_TagString: Untagged
@@ -1478,6 +1499,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1831453607}
   m_CullTransparentMesh: 1
+--- !u!95 &1831453611
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1831453607}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: b1421d57240bf344db06ce24c1956d56, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1893967193
 GameObject:
   m_ObjectHideFlags: 0
