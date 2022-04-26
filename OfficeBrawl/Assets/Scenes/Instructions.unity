@@ -701,9 +701,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Move with W and D or the arrow keys
 
-
-    Use space for your character''s
-    special attack!'
+    Press Enter to attack'
 --- !u!222 &1571436730
 CanvasRenderer:
   m_ObjectHideFlags: 0
