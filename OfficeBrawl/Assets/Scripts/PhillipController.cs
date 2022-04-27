@@ -11,7 +11,12 @@ public class PhillipController : MonoBehaviour
     public DummySettings dummy;
     public Animator m_animator;
     public MenuController menuController;
-    public Transform pencilCollider;
+    public GameObject pencilLocation;
+    public BoxCollider2D pencilCollider;
+    public GameObject dummyObject;
+    public BoxCollider2D dummyCollider;
+
+    private Vector2 overlapPoint = new Vector2(4.65f, -1.61f);
 
     private bool hasHorizontalInput;
     private bool isWalking;
@@ -24,6 +29,17 @@ public class PhillipController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         m_animator = GetComponent<Animator>();
+    }
+
+    void meleeAttack(bool isAttacking, BoxCollider2D pencil, BoxCollider2D dummyCollider)
+    {
+        if (isAttacking)
+        {
+            if (pencil.IsTouching(dummyCollider))
+            {
+                dummy.count -= 10;
+            }
+        }
     }
 
     void FixedUpdate()
@@ -59,17 +75,18 @@ public class PhillipController : MonoBehaviour
             hasAttackInput = true;
             isAttacking = hasAttackInput;
             m_animator.SetBool("isAttacking", isAttacking);
-            // Collider2D[] enemiesToDamage = Physics2D.OverlapCircleAll(pencilCollider, 1.9f);
 
             if (isAttacking)
             {
                 if (m_animator.GetCurrentAnimatorStateInfo(0).IsName("phillip_idle_left"))
                 {
                     m_animator.Play("phillip_melee_left");
+                    meleeAttack(isAttacking, pencilCollider, dummyCollider);
                 }
                 else if (m_animator.GetCurrentAnimatorStateInfo(0).IsName("phillip_idle_right"))
                 {
                     m_animator.Play("phillip_melee_right");
+                    meleeAttack(isAttacking, pencilCollider, dummyCollider);
                 }
             }
 
