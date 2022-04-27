@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
+    public TimerController timer;
     public GameObject loosePanel;
     public GameObject winPanel;
     public TextMeshProUGUI[] countText;
@@ -45,6 +46,7 @@ public class MenuController : MonoBehaviour
     public void WinGame()
     {
         winPanel.SetActive(true);
+        Time.timeScale = 0;
     }
 
     // Start is called before the first frame update
