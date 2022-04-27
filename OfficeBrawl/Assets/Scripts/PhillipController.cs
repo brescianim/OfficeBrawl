@@ -11,12 +11,11 @@ public class PhillipController : MonoBehaviour
     public DummySettings dummy;
     public Animator m_animator;
     public MenuController menuController;
+
     public GameObject pencilLocation;
     public BoxCollider2D pencilCollider;
     public GameObject dummyObject;
     public BoxCollider2D dummyCollider;
-
-    private Vector2 overlapPoint = new Vector2(4.65f, -1.61f);
 
     private bool hasHorizontalInput;
     private bool isWalking;
