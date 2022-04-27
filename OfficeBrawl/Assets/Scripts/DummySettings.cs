@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class DummySettings : MonoBehaviour
 {
     public Text HP;
-    public int count = 100;
+    public int count = 200;
 
     void UpdateGUI()
     {

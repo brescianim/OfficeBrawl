@@ -2716,7 +2716,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: {fileID: 2066035830}
-  count: 100
+  count: 200
 --- !u!61 &1621764397
 BoxCollider2D:
   m_ObjectHideFlags: 0
