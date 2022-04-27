@@ -3224,6 +3224,10 @@ PrefabInstance:
       propertyPath: pencilCollider
       value: 
       objectReference: {fileID: 732356122}
+    - target: {fileID: 806818582363217856, guid: befe5608dd56c474a956f6f745dff4a8, type: 3}
+      propertyPath: pencilCollider.x
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 806818582363217857, guid: befe5608dd56c474a956f6f745dff4a8, type: 3}
       propertyPath: m_RootOrder
       value: 1
