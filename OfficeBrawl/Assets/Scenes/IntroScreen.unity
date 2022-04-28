@@ -613,7 +613,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: CITA 280 Presnts...
+  m_Text: CITA 280 Presents...
 --- !u!222 &749322401
 CanvasRenderer:
   m_ObjectHideFlags: 0
