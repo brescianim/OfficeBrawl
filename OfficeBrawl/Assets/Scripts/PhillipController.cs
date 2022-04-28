@@ -24,11 +24,15 @@ public class PhillipController : MonoBehaviour
     private bool hasAttackInput;
     private bool isAttacking;
 
+    public AudioClip stab;
+    private AudioSource source;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         p_animator = GetComponent<Animator>();
+        source = GetComponent<AudioSource>();
     }
 
     void meleeAttack(bool isAttacking, BoxCollider2D pencil, BoxCollider2D dummyCollider)
@@ -91,6 +95,7 @@ public class PhillipController : MonoBehaviour
             hasAttackInput = true;
             isAttacking = hasAttackInput;
             p_animator.SetBool("isAttacking", isAttacking);
+            source.PlayOneShot(stab);
 
             if (isAttacking)
             {
@@ -129,6 +134,9 @@ public class PhillipController : MonoBehaviour
         if (dummy.count == 0)
         {
             menuController.WinGame();
+            AudioSource win = GetComponent<AudioSource>();
+            win.Play();
+
         }
     }
 
