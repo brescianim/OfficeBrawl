@@ -9,7 +9,8 @@ public class PhillipController : MonoBehaviour
     public Vector2 movement;
     public float moveSpeed = 5f;
     public DummySettings dummy;
-    public Animator m_animator;
+    public Animator p_animator;
+    public Animator w_animator;
     public MenuController menuController;
 
     public GameObject pencilLocation;
@@ -27,7 +28,7 @@ public class PhillipController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        m_animator = GetComponent<Animator>();
+        p_animator = GetComponent<Animator>();
     }
 
     void meleeAttack(bool isAttacking, BoxCollider2D pencil, BoxCollider2D dummyCollider)
@@ -48,23 +49,39 @@ public class PhillipController : MonoBehaviour
 
         hasHorizontalInput = !Mathf.Approximately(movement.x, 0f);
         isWalking = hasHorizontalInput;
-        m_animator.SetBool("isWalking", isWalking);
+        p_animator.SetBool("isWalking", isWalking);
 
         if (isWalking)
         {
             if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
             {
-                m_animator.Play("phillip_walk_left");
+                p_animator.Play("phillip_walk_left");
             }
             else if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
             {
-                m_animator.Play("phillip_walk_right");
+                p_animator.Play("phillip_walk_right");
             }
         }
 
         AttackInput();
-
         End();
+    }
+
+    void WyattJudgement()
+    {
+        if (dummy.count <= 200 && dummy.count > 140)
+        {
+            w_animator.Play("wyatt_bg_200");
+        } else if (dummy.count <= 140 && dummy.count > 80)
+        {
+            w_animator.Play("wyatt_bg_140");
+        } else if (dummy.count <= 80 && dummy.count > 40)
+        {
+            w_animator.Play("wyatt_bg_80");
+        } else if (dummy.count <= 40)
+        {
+            w_animator.Play("wyatt_bg_40");
+        }
     }
 
     void AttackInput()
@@ -73,35 +90,35 @@ public class PhillipController : MonoBehaviour
         {
             hasAttackInput = true;
             isAttacking = hasAttackInput;
-            m_animator.SetBool("isAttacking", isAttacking);
+            p_animator.SetBool("isAttacking", isAttacking);
 
             if (isAttacking)
             {
-                if (m_animator.GetCurrentAnimatorStateInfo(0).IsName("phillip_idle_left"))
+                if (p_animator.GetCurrentAnimatorStateInfo(0).IsName("phillip_idle_left"))
                 {
-                    m_animator.Play("phillip_melee_left");
+                    p_animator.Play("phillip_melee_left");
                     meleeAttack(isAttacking, pencilCollider, dummyCollider);
                 }
-                else if (m_animator.GetCurrentAnimatorStateInfo(0).IsName("phillip_idle_right"))
+                else if (p_animator.GetCurrentAnimatorStateInfo(0).IsName("phillip_idle_right"))
                 {
-                    m_animator.Play("phillip_melee_right");
+                    p_animator.Play("phillip_melee_right");
                     meleeAttack(isAttacking, pencilCollider, dummyCollider);
                 }
             }
 
             hasAttackInput = false;
             isAttacking = hasAttackInput;
-            m_animator.SetBool("isAttacking", isAttacking);
+            p_animator.SetBool("isAttacking", isAttacking);
 
             if (!isAttacking)
             {
-                if (m_animator.GetCurrentAnimatorStateInfo(0).IsName("phillip_melee_left"))
+                if (p_animator.GetCurrentAnimatorStateInfo(0).IsName("phillip_melee_left"))
                 {
-                    m_animator.Play("phillip_idle_left");
+                    p_animator.Play("phillip_idle_left");
                 }
-                else if (m_animator.GetCurrentAnimatorStateInfo(0).IsName("phillip_melee_right"))
+                else if (p_animator.GetCurrentAnimatorStateInfo(0).IsName("phillip_melee_right"))
                 {
-                    m_animator.Play("phillip_idle_right");
+                    p_animator.Play("phillip_idle_right");
                 }
             }
         }
@@ -118,6 +135,6 @@ public class PhillipController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //
+        WyattJudgement();
     }
 }
