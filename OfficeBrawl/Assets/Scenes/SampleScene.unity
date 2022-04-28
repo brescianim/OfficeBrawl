@@ -525,7 +525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d9816d97de5e7a4e9faecfa4232ca14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 1
+  timeRemaining: 45
   timerIsRunning: 0
   timeText: {fileID: 1065354499}
   loosePanel: {fileID: 1162692179}
